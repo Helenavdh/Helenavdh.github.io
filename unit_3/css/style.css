@@ -1,1 +1,9 @@
-{background-image: url(https://imgur.com/a/78El6Ag);}
+{background-image: url(https://imgur.com/a/78El6Ag);
+	}
+	{background-size: cover;}
+
+	h1 {color: 415970; font-size: 40px; text-align: center;}
+#slogan {color: 415970; font-size: 24px; text-decoration: italic; text-align: center;}
+p2 {font-size: 35; text-align: center;}
+ul, li {color: 6388AB;}
+img {align-content: center;}
