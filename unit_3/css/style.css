@@ -1,8 +1,21 @@
-{background-image: url(https://imgur.com/a/78El6Ag);}
-	{background-size: cover;}
-
-	h1 {color: 415970; font-size: 40px; text-align: center;}
-#slogan {color: 415970; font-size: 24px; text-decoration: italic; text-align: center;}
-p2 {font-size: 35; text-align: center;}
-ul, li {color: 6388AB;}
-img {align-content: center;}
+* { margin:0; padding:0; box-sizing:border-box; }
+section {
+	padding:4em 0;
+}
+h1 {
+	font-size: 40px;
+	margin-bottom: .5em;
+}
+#slogan { 
+	font-size: 24px;
+	font-style: italic;
+}
+#intro {
+	background-image: url(../images/tabletop.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	color: rgba(0,0,0,.65);
+	height:90vh;
+	padding-top:2em;
+	text-align: center;
+}
