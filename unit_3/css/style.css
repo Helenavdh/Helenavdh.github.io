@@ -1,14 +1,9 @@
-* { margin:0; padding:0; box-sizing:border-box; }
-section {
-	padding: 2em 0;
-}
-nav {
-	text-align: center;
-	font-size: 24px
-	color: #474747;
-	font-weight: bold;
-	font-family: sans-serif;
-	font-style: none;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:700);
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700:400');
+
+* { margin:0; 
+	padding:0; 
+	box-sizing:border-box; 
 }
 body{
 	background: #FFEA9E;
@@ -17,57 +12,82 @@ body{
 	font-family: serif;
 	line-height: 1.5em;
 }
-h1 {
+nav
+{
+	margin: auto;
+}
+.navlinks 
+{
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(0,0,0,.65);
+	font-weight: 600;
+	letter-spacing: 2px;
+
+		padding: 20px;
+/*	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;*/
+
+	margin: 0 20px;
+	border: none;
+	background-color: none;
+}	
+h1 
+{
 	font-size: 50px;
 	margin-bottom: .5em;
 	line-height: 1.5em;
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 #slogan { 
 	font-size: 24px;
-	font-family: serif;
+	font-family: 'Playfair Display: 700', serif;
 	font-style: italic; 
 	font-weight: bold;
 }
-#intro {
-	background-image: url(../images/tabletop.jpg);
+#lander {
+	background: url(../images/tabletop.jpg);
 	background-size: cover;
-	background-repeat:no-repeat;
-	color: rgba(0,0,0,.65);
-	height:100vh;
-	padding-top:15em;
-	text-align: center;
+	height:750px
+/*	color: rgba(0,0,0,.65);*/
+	padding-top: 20px;
+/*	text-align: left;*/
 }
 h2 {
 	text-align: center;
 	font-size: 30px ;
 	color: rgba(0,0,0,.65)
 	line-height: 1.5em;
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	padding: 1em
 }
-article{ 
-font-family: serif;
- }
-#about {
+article
+{ 
+font-family: 'Playfair Display: 400', serif;
+padding: 1em
+}
+#about 
+{
 	text-align: center;
 	font-size: 30px
 	color: rgba(0,0,0,.65)
-	font: serif;
 	line-height: 1.5em
 }
 img{
 	width: 50%
-
 }
 hr {
-	height: 3px
+	height: 1px
 	width: 2em;
-	margin: 1em auto;
+	margin: 2px
 	background-color: rgba(0,0,0,)
 	border: none;
-
 }
 footer{
 	text-align: center;
-	font-family: serif;
-}
+	font-family: 'Playfair Display: 400', serif;
+	font-size: 20px;
+	padding: 2em;
+	line-height: 1em;
+	}
