@@ -115,10 +115,10 @@ footer {
 	border: none;
 	padding: 20px;
 }
-a {
+#footer {
   color: #FFEFE5;
   text-decoration: underline;
 }
-a:hover {
+#footer:hover {
   color: #FFF38B;
 }
