@@ -48,28 +48,18 @@ h1 {
 }
 #lander {
 	text-align: center;
-	padding: 10em;
+	padding: 10em 0em;
 	height: 100vh;
-}
-#aboutcolumn {
-    border: 5px #474747 solid;
-    padding: 2em;
-}
-#about {
-	text-align: center;
-	font-size: 1em;
-	color: rgba(0,0,0,.65);
-	line-height: 1.5em;
-	padding: .5em;
-	float: right;
-	width: 30%;
-}
-/* ^ #right on unit 6 project*/
-#about img {
-	width: 90%;
 }
 p {
 	font-style: bold;
+}
+#linebreak1 {
+    border: 4px #474747 solid;
+    width: 100%
+}
+#linebreak2 {
+	border: none;
 }
 #blogs { 
 	padding: 1em;
@@ -89,13 +79,27 @@ p {
 #blogs a:hover {
   color: #A8124C;
 }
-/* ^ #left in unit 6 project */
 #blogs img {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
 	padding: 0px; 
 	float: left;
+}
+#aboutcolumn {
+    padding: 2em;
+}
+#about {
+	text-align: center;
+	font-size: 1em;
+	color: rgba(0,0,0,.65);
+	line-height: 1.5em;
+	padding: .5em;
+	float: right;
+	width: 30%;
+}
+#about img {
+	width: 90%;
 }
 .clearfix:after {
     visibility: hidden;
@@ -126,7 +130,6 @@ hr  {
 footer {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
 	line-height: 1em;
 	background-color: #474747;
 	color: #FFEFE5;
@@ -140,7 +143,6 @@ footer {
 #footer:hover {
   color: #A8124C;
 }
-
 
   @media only screen and (max-width: 1323px){
   	nav a {
@@ -163,10 +165,7 @@ footer {
   	#about img {
   		width: 50%
   	}
-  	#aboutcolumn{
-  		margin-top: 30px;
-  	}
-  	 #blogs {
+  	#blogs {
  		float: none;
  		margin: auto;
 		padding: auto;
@@ -174,6 +173,10 @@ footer {
  	}
  	#blogs p {
     margin-top: 2em;
+	}
+	#linebreak2 {
+	border: 4px #474747 solid;
+    width: 100%
 	}
  }
 
@@ -187,6 +190,29 @@ footer {
  		margin: auto;
 		padding: auto;
  		width: 90%;
+ 	}
+ 	h1 {
+ 		font-size: 2.5em;
+ 	}
+ 	#slogan {
+ 		font-size: 1em;
+ 	}
+ 	nav {
+ 		font-size: .8em;
+ 	}
+ 	@media only screen and (max-width: 450px){
+ 	#about {
+ 		font-size: .8em;
+ 	}
+ 	#blogs {
+ 		font-size: .8em;
+ 	}
+ 	h3 {
+ 		font-size: 1em;
+ 		padding: .5em;
+ 	}
+ 	#footer {
+ 		line-height: 1.5em;
  	}
 
  }
