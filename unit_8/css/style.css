@@ -9,7 +9,7 @@ body {
 	background: #FFEFE5;
 	color: #474747;
 	font-family: serif;
-	line-height: 1.5em;
+	line-height: 1.2em;
 	font-size: 20px;
 }
 nav {
@@ -35,16 +35,17 @@ nav {
 }
 h1 {
 	font-size: 3em;
-	margin-bottom: .5em;
-	line-height: 1em;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
+	padding: 1em 0 0 0;
+	line-height: 1em;
 }
 #slogan { 
 	font-size: 1.25em;
 	font-family: 'Playfair Display: 700', serif;
 	font-style: italic; 
 	font-weight: bold;
+	padding: 2em 0 0 0;
 }
 #lander {
 	text-align: center;
@@ -61,18 +62,22 @@ p {
 #linebreak2 {
 	border: none;
 }
+h3 {
+	line-height: 2em;
+	font-size: 1.2em;
+}
 #blogs { 
-	padding: 1em;
+	padding: 0;
     float:left;
     width: 65%;
-    margin: 1em;
+    margin: .5em;
 }
 #blogs p {
 	margin-top: 1em;
 }
 #blogs a {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
+	font-size: .9em;
 	color: #474747;
 	text-decoration: underline;
 }
@@ -81,7 +86,7 @@ p {
 }
 #blogs img {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 30px;
     width: 30%;
 	padding: 0px; 
 	float: left;
@@ -99,7 +104,7 @@ p {
 	width: 30%;
 }
 #about img {
-	width: 90%;
+	width: 80%;
 }
 .clearfix:after {
     visibility: hidden;
@@ -111,7 +116,7 @@ p {
 }
 h2 {
 	text-align: center;
-	font-size: 30px;
+	font-size: 2em;
 	color: rgba(0,0,0,.65)
 	line-height: .5em;
 	font-family: 'Montserrat', sans-serif;
@@ -119,13 +124,13 @@ h2 {
 }
 article { 
 	font-family: 'Playfair Display: 400', serif;
-	padding: 1em;
+	padding: 2em;
 }
 hr  {
 	border: .1em solid grey;
 	height: .1em;
 	width: 10em;
-	margin: .5em auto;
+	margin: 1em auto;
 }
 footer {
 	text-align: center;
@@ -134,7 +139,7 @@ footer {
 	background-color: #474747;
 	color: #FFEFE5;
 	border: none;
-	padding: 2em;
+	padding: 1em;
 	line-height: 1.5em;
 }
 #footer {
@@ -151,6 +156,7 @@ footer {
   	}
   	.navlinks{
   		padding: 0em;
+  		line-height: 2em;
   	}
 }
 
@@ -164,20 +170,25 @@ footer {
 		width: 80%;
   	}
   	#about img {
-  		width: 50%
+  		width: 40%
+  	}
+  	#aboutcolumn {
+  		padding: 0;
+  		padding-bottom: 1em;
   	}
   	#blogs {
  		float: none;
- 		margin: auto;
-		padding: auto;
+ 		margin: 0;
+		padding: 0;
  		width: 90%;
+ 		margin-bottom: 3em;
  	}
  	#blogs p {
-    margin-top: 2em;
+   	 	margin-top: 1em;
 	}
 	#linebreak2 {
-	border: 4px #474747 solid;
-    width: 100%
+		border: 4px #474747 solid;
+	    width: 100%
 	}
  }
 
@@ -192,6 +203,13 @@ footer {
 		padding: auto;
  		width: 90%;
  	}
+ 	 #blogs img {
+ 		float: none;
+ 		width: 100%;
+ 	}
+ 	#about img {
+  		width: 60%
+  	}
  	h1 {
  		font-size: 2.5em;
  	}
@@ -201,19 +219,29 @@ footer {
  	nav {
  		font-size: .8em;
  	}
- 	@media only screen and (max-width: 450px){
+ }
+
+ @media only screen and (max-width: 450px){
  	#about {
  		font-size: .8em;
  	}
+ 	#aboutcolumn {
+ 		 padding: 1em 0;
+ 	}
  	#blogs {
  		font-size: .8em;
+ 		padding: 1em 0;
+ 	}
+ 	#blogs img {
+ 		float: none;
+ 		width: 100%;
  	}
  	h3 {
- 		font-size: 1em;
  		padding: .5em;
  	}
  	#footer {
  		line-height: 1.5em;
+ 		padding: 0em;
  	}
 
  }
